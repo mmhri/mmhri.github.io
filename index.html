@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Primary Meta Tags -->
+<title> Mental Models of Robots Workshop 2020  </title>
+<meta name="title" content="Mental Models of Robots Workshop 2020 , Human Robot Intraction 2020">
+<meta name="description"
+  content="People often hold inaccurate or overly presumptuous mental models about robots, likely due to a lack of experience and the strong influence of robot design (e.g., appearance). Thus, there is often a mismatch between user mental models, or expectations of robots, and actual robot capabilities.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="#">
+<meta property="og:title" content="Mental Models of Robots Workshop 2020">
+<meta property="og:description"
+  content="People often hold inaccurate or overly presumptuous mental models about robots, likely due to a lack of experience and the strong influence of robot design (e.g., appearance). Thus, there is often a mismatch between user mental models, or expectations of robots, and actual robot capabilities.">
+<meta property="og:image" content="https://icaros-web.herokuapp.com/images/white_icon.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://icaros-web.herokuapp.com">
+<meta property="twitter:title" content="Mental Models of Robots Workshop 2020">
+<meta property="twitter:description"
+        content="People often hold inaccurate or overly presumptuous mental models about robots, likely due to a lack of experience and the strong influence of robot design (e.g., appearance). Thus, there is often a mismatch between user mental models, or expectations of robots, and actual robot capabilities.">
+<meta property="twitter:image" content="https://icaros-web.herokuapp.com/images/white_icon.png">
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous">
+<style>
+    
+    @media (min-width: 576px) {
+        .navbar-right {
+        max-width: 540px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .navbar-right {
+        max-width: 720px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .navbar-right {
+        max-width: 960px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .navbar-right {
+        max-width: 1140px;
+        }
+    }
+
+
+    body {
+        font-family: "Lato", sans-serif
+    }
+
+   .w3-top{
+       background-color: rgba(0,0,0,.8);
+   }
+
+   .w3-bar-item {
+        padding: 0 10px;
+        color: #a1a1a1;
+   }
+
+   .w3-bar-item:hover {
+        text-decoration: none;
+        color: #fff;
+   }
+
+   .navbar-right {
+        line-height: 60px;
+        margin: 0 auto;
+    }
+
+   .w3-bar{
+        width: 100%;
+        height: 60px;
+        margin-top: -60px;
+   }
+
+   .banner{
+       width: 200px;
+   }
+
+   .strong {
+     font-size: 18px;
+     font-weight: 700;
+     font-family: "Aerial", sans-serif;
+     margin-left: 20px;
+   }
+
+   section {
+    padding: 65px 30px 0 30px; 
+   }
+
+  .w3-bar {
+    width: 100%;
+  }
+  .time{
+    width: 180px;
+    display: inline-block;
+  }
+  .date{
+    width: 250px;
+    display: inline-block;
+  }
+</style>
+
+<body>
+
+  <!-- Navbar -->
+    <div class="w3-bar w3-white w3-card w3-top" style="position: fixed;">
+      <!-- <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" title="Toggle Navigation Menu"><i
+          class="fa fa-bars"></i></a>-->
+      <div class="navbar-right">
+        <a href="#title" class="w3-bar-item w3-button  w3-hide-small" style="font-size: 20px;
+        font-weight: 700;">Mental Models of Robots Workshop 2020</a>
+        <a href="#summary" class="w3-bar-item w3-button  w3-hide-small">Summary</a>
+        <a href="#schedule" class="w3-bar-item w3-button  w3-hide-small">Schedule</a>
+        <a href="#details" class="w3-bar-item w3-button  w3-hide-small">Submission Instructions</a>
+        <a href="#organizers" class="w3-bar-item w3-button  w3-hide-small">Organizers</a>
+      </div>
+    </div>
+
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <!-- <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:80px">
+    <a href="#title" class="w3-bar-item w3-bar-item--m w3-button w3-padding-large" ></a>
+    <a href="#summary" class="w3-bar-item w3-bar-item--m w3-button w3-padding-large" >Summary</a>
+    <a href="#schedule" class="w3-bar-item w3-bar-item--m w3-button w3-padding-large" >Schedule</a>
+    <a href="#Organizers" class="w3-bar-item  w3-bar-item--m w3-button w3-padding-large" >Organizers</a>
+    <a href="videos" class="w3-bar-item w3-bar-item--m w3-button w3-padding-large" >Videos</a>
+  </div> -->
+  
+  <!-- Page content -->
+  <div class="container">
+      <section id="title" class="text-center" style="margin-top: 60px;">
+            <img src="./MMs-in-HRI-2020_LOGO.PNG" class="banner" />
+            <h1 class="text-center">Workshop on Mental Models of Robots <br> at HRI 2020 in Cambridge, UK </h1>
+      </section>
+      <section id="summary">
+            <h3> Call for Submissions to Mental Models of Robots Workshop 2020 (Half-day)</h3>
+            <p class="text-justify">People often hold inaccurate or overly presumptuous mental models about robots, likely due to a lack of experience and the strong influence of robot design (e.g., appearance). Thus, there is often a mismatch between user mental models, or expectations of robots, and actual robot capabilities. This mismatch can lead to ambiguous perceptions and improper trust estimations of robot actions, wrongful accusations of errors, ineffective human-robot collaboration, or even discontinued use. As robotic systems become increasingly complex and their presence more commonplace, HRI researchers should find ways to give users a window into what the robot is “thinking”, “feeling”, and “intending”. We envision a future in which robots can
+            automatically detect and correct inaccurate mental models held by users. This workshop will develop a multidisciplinary vision for the next few years of research in pursuit of that future.</p>
+            
+            <p class="text-justify">This workshop aims to bring together researchers interested in helping users understand robotic systems. Our aim is to create a clearer picture of what mental model research looks like, what the different sub-areas and problems are, and how different disciplines can contribute to making robot actions more interpretable. In this light, we welcome interdisciplinary contributions from those working on estimating aspects of users’ mental models, designing communicative robot actions or other interventions, and developing decision making systems that connect all these elements to create autonomous robot behavior. </p>
+            
+            <p class="text-justify">Please send submissions to: <a href="mailto:mental.models.in.hri.workshop.2019@gmail.com">mental.models.in.hri.workshop.2019@gmail.com</a></p>
+            
+            <h3>Important Dates</h3>
+
+            <div class="event-item row">
+              <div class="col-md-12"> <span class="date">January 15th, 2020 	(Wednesday)</span> <span class="strong">  Submission deadline </span>  </div>
+            </div>
+
+            <div class="event-item row">
+                <div class="col-md-12"> <span class="date">January 27th, 2020 	(Monday)</span> <span class="strong"> Notification of acceptance </span> </div>
+            </div>
+
+            <div class="event-item row">
+                <div class="col-md-12"> <span class="date">February 14th, 2020 (Friday)</span> <span class="strong"> Camera-ready deadline </span> </div>
+            </div> 
+
+            <div class="event-item row">
+                <div class="col-md-12"> <span class="date">March 23rd, 2020 	(Monday)</span> <span class="strong"> Mental Models of Robots Workshop </span> </div>
+            </div>  
+      </section>
+
+      <section id="schedule">
+            <h3>Events Schedule</h3>
+
+            <div class="event-item row">
+                <div class="col-md-12"> <span class="time">09:00 – 09:15am</span> <span class="strong"> Organizers’ welcome </span> </div>
+            </div>
+  
+            <div class="event-item row">
+                  <div class="col-md-12"> <span class="time">09:15 – 10:15am</span> <span class="strong"> Invited speaker talks </span> </div>
+            </div>
+  
+            <div class="event-item row">
+                  <div class="col-md-12"> <span class="time">10:15 – 11:00am </span><span class="strong"> Contributed talks </span> </div>
+            </div> 
+  
+            <div class="event-item row">
+                  <div class="col-md-12"> <span class="time">11:00 – 11:30am</span> <span class="strong"> Coffee break </span> </div>
+            </div>  
+
+          <div class="event-item row">
+                <div class="col-md-12"> <span class="time">11:30 – 12:45pm</span> <span class="strong"> Break-out activities and discussions </span> </div>
+          </div> 
+
+          <div class="event-item row">
+                <div class="col-md-12"> <span class="time">12:45pm </span>  <span class="strong"> Close for lunch</span> </div>
+          </div> 
+          
+      </section>
+
+      <section id="details">
+          <h3>Submission Instructions</h3>
+          <p class="text-justify">Applicants with a background in human-computer interaction, natural language processing, design, human factors, psychology, neuroscience, cognitive science, and any other related disciplines are welcome to apply. We especially encourage submissions from researchers and practitioners contributing theories, methods and applications that are only sparsely used in the HRI community such as human factors, gaming, and employee education for working with industrial robots. </p>
+          <p class="text-justify text-bold">Please submit a 2-page extended abstract (not including references) of work relating to the workshop topic. Examples of more specific topic areas are below. </p>
+        <ul>
+          <li>Estimating user mental models</li>
+          <li>Shared mental models</li>
+          <li>Cognitive modeling / architectures</li>
+          <li>Communicating intent</li>
+          <li>Communicating learned policies</li>
+          <li>Designing expressive robot actions</li>
+          <li>Generating dialogue to influence mental model development</li>
+          <li>Other communication modalities (e.g., haptics, GUIs, sounds, VR/AR)</li>
+          <li>Interaction design for influencing mental models</li>
+          <li>Transparency, explainability, legibility, or predictability</li>
+          <li>Users’ perceptions of robot actions or mental states</li>
+          <li>Evaluation of robot systems in terms of mental models</li>
+          <li>Legal, ethical and societal issues related to mental models held by different people (e.g., users, designers, engineers, consumers, marketers, policymakers)</li>
+        </ul>
+          <p class="text-justify">All papers should be submitted in PDF format using the ACM template for late-breaking reports (see here under the “Submission Instructions” heading). Papers should be anonymized; please see anonymization guidelines here. Submissions will be peer-reviewed based on their originality, relevance, technical soundness, and clarity. Please email your pdf submissions to: <a href="mailto:mental.models.in.hri.workshop.2019@gmail.com">mental.models.in.hri.workshop.2019@gmail.com</a></p>
+      </section>
+
+      <section id="organizers">
+            <h3>Organizers</h3>
+
+            <div class="people-item">
+                <h6><a href="https://matthewrueben.github.io/">Matt Rueben</a></h6>
+                <P class="text-justify">I am a scholar doing research on human-robot interaction. Right now I work as a post-doc in the USC Interaction Lab directed by Prof. Maja Matarić. I received the Ph.D. in Robotics from Oregon State University in 2018 for a dissertation about privacy in human-robot interaction. My advisor was Prof. Bill Smart. I also worked extensively with Prof. Frank Bernieri from the School of Psychological Science. My undergraduate studies were also at OSU—I received the H.B.S. Degree in Mechanical Engineering in 2013.<br>My goal is for robots to respect human social values; so far I have focused on privacy. My current research is about how humans form mental models of a robot's perceptual capabilities, and how the robot can model this process and then act to influence it. A robot should help humans accurately understand what personal information it is recording.</P>
+            </div>
+            
+            <div class="people-item">
+                <h6><a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a></h6>
+                <P class="text-justify">I am an assistant professor in computer science at the University of Southern California. I graduated with a PhD from the CMU Robotics Institute and with a MS from MIT. My research lies at the intersection of human-robot interaction, game-theory and robot planning under uncertainty. I draw upon insights from studies in economics, cognitive behavioral psychology and human team coordination, to develop mathematical models of human behavior and integrate them into robot decision making in a principled way. Ultimately, my research is motivated by real world problems, thus I believe strongly in the importance of models that are scalable and robust, supporting deployed systems in real world applications.</P>
+            </div>
+
+            <div class="people-item">
+                <h6><a href="https://www.uu.nl/staff/MMAdeGraaf"> Maartje de Graaf</a></h6>
+                <P class="text-justify">I am a social and behavioral scientist in the multidisciplinary field of human-robot interaction. My research is motivated by my intrinsic drive to understand human behavior and its underlying psychological and cognitive processes. My past research indicates a strong impact of people’s anthropomorphic evaluations of robots in the emergence of long-term acceptance. Envisioning a future in which the social abilities of robots can only increase, my research interest focuses on people’s social, emotional and cognitive responses to robots including the societal and ethical consequences of those responses. The end goal is to influence technology design and policy direction to pursue the development of socially acceptable robots that benefit society.</P>
+            </div>
+
+            <div class="people-item">
+                <h6><a href="https://www.elizabethkphillips.com/">Elizabeth K. Phillips</a></h6>
+                <P class="text-justify">Hello. Most people call me Beth and I am an Assistant Professor at the United States Air Force Academy in the Department of Behavioral Sciences and Leadership and in the Warfighter Effectiveness Research Center (WERC).  I was recently a post doc in the Humanity Centered Robotics Initiative (HCRI) at Brown University.<br>I am also the co-creator of the Anthropomorphic RoBOT (ABOT) database, a collection of images of and data about real-world human-like robots. ABOT was created as a resource to enable systematic, generalizable, and reproducible research on the psychological effects of robots’ human-like appearance. </P>
+            </div>
+
+            <div class="people-item">
+              <h6><a href="https://robotics.umich.edu/profile/lionel-robert/"> Lionel Robert</a></h6>
+              <P class="text-justify"> By way of introduction, I am an Associate Professor in the School of Information (UMSI) at the University of Michigan and a core faculty member of Michigan Robotics. I am the director of the Michigan Autonomous Vehicle Research Intergroup Collaboration (MAVRIC). I am also an affiliate of the Michigan Interactive and Social Computing (MISC) Research Group.
+              <br>My research in the area of human robot collaboration typically involves understanding how to facilitate more effective collaborations between humans and robots. Below you will find links to my two areas of study as they relate to human robot collaborations along with several grants and funded research projects associated with both areas. </P>
+            </div>
+
+            <div class="people-item">
+              <h6><a href="https://profiles.stanford.edu/david-sirkin">David Sirkin</a></h6>
+              <P class="text-justify">David Sirkin is a Research Associate at Stanford University's Center for Design Research, where he focuses on design methodology, as well as the design of physical interactions between humans and robots, and autonomous vehicles and their interfaces. He is also a Lecturer in Electrical Engineering, where he teaches interactive device design. David frequently collaborates with, and consults for, local Silicon Valley and global technology companies including Siemens, SAP and Microsoft Research. He grew up in Florida, near the Everglades, and in Maine, near the lobsters.</P>
+            </div>
+
+            <div class="people-item">
+              <h6><a href="https://www.linkedin.com/in/minae-kwon-baaa0b7a/">Minae Kwon</a></h6>
+              <P class="text-justify">Minae is a PhD student in the Computer Science Department. She is broadly interested in enabling robots to intelligently interact with, influence, and adapt to humans.</P>
+            </div>
+
+            <div class="people-item">
+              <h6><a href="https://www.ida.liu.se/~samth78/">Sam Thellman</a></h6>
+              <P class="text-justify">The main part of my research efforts goes into investigating people’s cognition of the behavior and mind of autonomous systems, such as humanoid robots, drones and self-driving cars. People commonly view autonomous systems as fundamentally different from themselves. In particular, very few people think that robots are alive and have genuine mental states. Despite this, however, people tend to treat them as if they were living creatures endowed with mental states, such as intentions, beliefs, desires, awareness and emotions, and frequently infer reasons as explanations for their actions. In doing this, I argue, they (we) adopt what philosophers have called "the intentional stance" toward these systems.</P>
+            </div>
+          
+      </section>
+
+  </div>
+  <!-- End Page Content -->
+
+  <!-- Footer -->
+  <footer class="container w3-padding-16 w3-center w3-opacity w3-light-grey w3-xlarge mt-4">
+    <p class="w3-medium" style="padding-left: 30px; color:#a1a1a1;"> copyright &copy; 2020</a></p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</body>
+
+</html>
