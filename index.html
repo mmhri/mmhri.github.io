@@ -31,27 +31,42 @@
   crossorigin="anonymous">
 <style>
     
-    @media (min-width: 576px) {
+    /* @media (max-width: 576px) {
         .navbar-right {
         max-width: 540px;
         }
-    }
+        .w3-mobile{
+          display: block;
+          background-color: rgba(0,0,0,.9);
+        }
+        .w3-mobile:hover{
+          color: white;
+          padding-left: 30px;
+        }
+    } */
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
         .navbar-right {
-        max-width: 720px;
+          max-width: 720px;
+        }
+        .w3-mobile{
+          display: block;
+          background-color: rgba(0,0,0);
+          padding-left: 30px !important;
+          border-bottom: 1px solid #a1a1a1;
+          font-size: 18px !important;
         }
     }
 
     @media (min-width: 992px) {
         .navbar-right {
-        max-width: 960px;
+          max-width: 960px;
         }
     }
 
     @media (min-width: 1200px) {
         .navbar-right {
-        max-width: 1140px;
+          max-width: 1140px;
         }
     }
 
@@ -61,7 +76,7 @@
     }
 
    .w3-top{
-       background-color: rgba(0,0,0,.8);
+       background-color: rgba(0,0,0);
    }
 
    .w3-bar-item {
@@ -96,6 +111,12 @@
      margin-left: 20px;
    }
 
+   .authors{
+     margin-left: 238px;
+     color: #616161;
+     font-style: italic
+   }
+
    section {
     padding: 65px 30px 0 30px; 
    }
@@ -120,24 +141,15 @@
       <!-- <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" title="Toggle Navigation Menu"><i
           class="fa fa-bars"></i></a>-->
       <div class="navbar-right">
-        <a href="#title" class="w3-bar-item w3-button  w3-hide-small" style="font-size: 20px;
+        <a href="#title" class="w3-bar-item w3-button  w3-mobile" style="font-size: 20px;
         font-weight: 700;">Mental Models of Robots Workshop 2020</a>
-        <a href="#summary" class="w3-bar-item w3-button  w3-hide-small">Summary</a>
-        <a href="#schedule" class="w3-bar-item w3-button  w3-hide-small">Schedule</a>
-        <a href="#details" class="w3-bar-item w3-button  w3-hide-small">Submission Instructions</a>
-        <a href="#organizers" class="w3-bar-item w3-button  w3-hide-small">Organizers</a>
+        <a href="#summary" class="w3-bar-item w3-button w3-mobile">Summary</a>
+        <a href="#schedule" class="w3-bar-item w3-button  w3-mobile">Schedule</a>
+        <a href="#details" class="w3-bar-item w3-button  w3-mobile">Submission Instructions</a>
+        <a href="#organizers" class="w3-bar-item w3-button  w3-mobile">Organizers</a>
       </div>
     </div>
 
-  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-  <!-- <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:80px">
-    <a href="#title" class="w3-bar-item w3-bar-item--m w3-button w3-padding-large" ></a>
-    <a href="#summary" class="w3-bar-item w3-bar-item--m w3-button w3-padding-large" >Summary</a>
-    <a href="#schedule" class="w3-bar-item w3-bar-item--m w3-button w3-padding-large" >Schedule</a>
-    <a href="#Organizers" class="w3-bar-item  w3-bar-item--m w3-button w3-padding-large" >Organizers</a>
-    <a href="videos" class="w3-bar-item w3-bar-item--m w3-button w3-padding-large" >Videos</a>
-  </div> -->
-  
   <!-- Page content -->
   <div class="container">
       <section id="title" class="text-center" style="margin-top: 60px;">
@@ -191,11 +203,11 @@
             </div>
         
             <div class="event-item row">
-                  <div class="col-md-12"> <span class="time"> </span> <span> &bull; Dr. Tom Ziemke, Linköping University and University of Skövde</span> </div>
+                  <div class="col-md-12 ml-4"><span style="margin-left: 198px;"> &bull; Dr. Tom Ziemke, Linköping University and University of Skövde</span> </div>
             </div>
 
             <div class="event-item row">
-                  <div class="col-md-12"> <span class="time"> </span> <span> &bull; Dr. Ross A. Knepper, Cornell University</span> </div>
+                  <div class="col-md-12 ml-4"><span style="margin-left: 198px;"> &bull; Dr. Ross A. Knepper, Cornell University</span> </div>
             </div>
          
         
@@ -204,29 +216,37 @@
                   <div class="col-md-12"> <span class="time">10:15 – 11:00am </span><span class="strong"> Contributed talks (5min each, plus questions)</span> </div>
             </div> 
   
-            <div class="event-item row">
-                  <div class="col-md-12"> <span class="time"> </span> <span> &bull; "The role of the intentional stance in people’s mental models of social robots." Sam Thellman, Annika Silvervarg, Tom Ziemke (Linköping University)</span> </div>
+            <div class="event-item row mt-4">
+                  <div class="col-md-12"><span style="margin-left: 218px"> &bull; <a target="_blank" href="https://drive.google.com/file/d/1-cdI6OuLPCT7uaAWACJSD7YfVjKPPmFO/view">"The role of the intentional stance in people’s mental models of social robots."</a></div>
+                  <div class="col-md-12"><span class="authors">Sam Thellman, Annika Silvervarg, Tom Ziemke (Linköping University)</span> </span> </div>
             </div>
-            <div class="event-item row">
-                  <div class="col-md-12"> <span class="time"> </span> <span> &bull; "The impact of human-like and device-like signals on people’s mental models of robots." Helena Frijns and Oliver Schürer (TU Wien)</span> </div>
+            <div class="event-item row mt-4">
+                  <div class="col-md-12"> <span style="margin-left: 218px"> &bull; "The impact of human-like and device-like signals on people’s mental models of robots." </span></div>
+                  <div class="col-md-12"><span class="authors">Helena Frijns and Oliver Schürer (TU Wien)</span> </div>
             </div>     
-            <div class="event-item row">
-                  <div class="col-md-12"> <span class="time"> </span> <span> &bull; "Understanding mental models in robot navigation." Bingqing Zhang, Catherine Holloway, Tom Carlson (University College London)</span> </div>
+            <div class="event-item row mt-4">
+                  <div class="col-md-12"> <span style="margin-left: 218px"> &bull; <a target="_blank" href="https://drive.google.com/file/d/10NjMKZkCPdEbPxVGDHL_LUPBpsude8m2/view">"Understanding mental models in robot navigation."</a></span></div>
+                  <div class="col-md-12"><span class="authors">  Bingqing Zhang, Catherine Holloway, Tom Carlson (University College London) </span> </div>
             </div>     
-            <div class="event-item row">
-                  <div class="col-md-12"> <span class="time"> </span> <span> &bull; "A narrative approach to study users’ perceptions of robot actions and mental states." Gina Neff (University of Oxford), Peter Nagy (Arizona State University), Elizabeth Wissinger (CUNY)</span> </div>
+            <div class="event-item row mt-4">
+                  <div class="col-md-12"> <span style="margin-left: 218px"> &bull; "A narrative approach to study users’ perceptions of robot actions and mental states."</span> </div>
+                  <div class="col-md-12"><span class="authors"> Gina Neff (University of Oxford), Peter Nagy (Arizona State University), Elizabeth Wissinger (CUNY)</span> </div>
             </div>     
-            <div class="event-item row">
-                  <div class="col-md-12"> <span class="time"> </span> <span> &bull; "Encoding what robots can do and how they can help me in my mental models: Insights from theories of perception." Erik Lagerstedt (University of Skövde), Serge Thill (Radboud University)</span> </div>
+            <div class="event-item row mt-4">
+                  <div class="col-md-12"> <span style="margin-left: 218px"> &bull; <a target="_blank" href="https://drive.google.com/file/d/1kVNLeCJ7p5FKLDBehUnqz3vhD4-kBYZl/view">"Encoding what robots can do and how they can help me in my mental models: Insights from theories of perception." </a></span> </div>
+                  <div class="col-md-12"><span class="authors"> Erik Lagerstedt (University of Skövde), Serge Thill (Radboud University)</span> </div>
             </div>             
-            <div class="event-item row">
-                  <div class="col-md-12"> <span class="time"> </span> <span> &bull; "Understanding non-verbal sound of humanoid robots in films." Adrian Latupeirissa and Roberto Bresin (KTH Royal Institute of Technology)</span> </div>
+            <div class="event-item row mt-4">
+                  <div class="col-md-12"> <span style="margin-left: 218px"> &bull; <a target="_blank" href="https://drive.google.com/file/d/1fXonziUJuC_SEk5tIyENuax4K-nhHXfR/view">"Understanding non-verbal sound of humanoid robots in films."</a> </span> </div>
+                  <div class="col-md-12"><span class="authors">Adrian Latupeirissa and Roberto Bresin (KTH Royal Institute of Technology)</span> </div>
             </div>     
-            <div class="event-item row">
-                  <div class="col-md-12"> <span class="time"> </span> <span> &bull; "Natural language interaction to facilitate mental models of remote robots." Francisco Chiyah Garcia, Helen Hastie, and Jose Aguas Lopes (Heriot-Watt University)</span> </div>
+            <div class="event-item row mt-4">
+                  <div class="col-md-12"> <span style="margin-left: 218px"> &bull; <a target="_blank" href="https://drive.google.com/file/d/1sfWG5tH-wZpJvcVC6F0ndYiQHOuhVLUY/view">"Natural language interaction to facilitate mental models of remote robots."</a> </span> </div>
+                  <div class="col-md-12"><span class="authors">Francisco Chiyah Garcia, Helen Hastie, and Jose Aguas Lopes (Heriot-Watt University)</span> </div>
             </div>             
-            <div class="event-item row">
-                  <div class="col-md-12"> <span class="time"> </span> <span> &bull; "Information-theoretic characterization of transparency in human-autonomy interaction." Deepak Gopinath, Brenna D. Argall (Northwestern University)</span> </div>
+            <div class="event-item row mt-4 mb-4">
+                  <div class="col-md-12"> <span style="margin-left: 218px"> &bull; <a target="_blank" href="https://drive.google.com/file/d/1iFZFOCkbr00I899Y7bNk4kR1O9YpQrMK/view">Information-theoretic characterization of transparency in human-autonomy interaction."</a></span> </div>
+                  <div class="col-md-12"><span class="authors"> Deepak Gopinath, Brenna D. Argall (Northwestern University)</span></div>
             </div>                     
 
         
@@ -324,3 +344,4 @@
 </body>
 
 </html>
+
